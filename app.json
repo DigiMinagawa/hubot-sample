@@ -1,0 +1,24 @@
+{
+  "name": "Hubot Sample",
+  "description": "Hubot Sample",
+  "repository": "https://github.com/DigiMinagawa/hubot-sample",
+  "keywords": [
+    "hubot",
+    "bot",
+    "chat",
+    "heroku"
+  ],
+  "addons": [
+    "redistogo"
+  ],
+  "env": {
+    "HUBOT_SKYPE_USERNAME": {
+      "description": "hubot's skype account username",
+      "required": true
+    },
+    "HUBOT_SKYPE_PASSWORD": {
+      "description": "hubot's skype account password in plain text",
+      "required": true
+    }
+  }
+}
